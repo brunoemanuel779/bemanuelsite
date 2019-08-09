@@ -429,6 +429,9 @@ a {
   }
 }
 @media only screen and (min-width:425px) and (max-width:768px){
+  body{
+    color:#000;
+  }
   .site-hero{
     height:600px;
     display:flex;
@@ -492,5 +495,12 @@ a {
     width:150px;
     font-size:12px; 
   }
+  .lead{
+    color:#00a2ff; 
+  }
+  .txt-skill{
+   color:#000;
+  }
+
 }
 
