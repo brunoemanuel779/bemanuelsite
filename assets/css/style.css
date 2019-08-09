@@ -331,6 +331,9 @@ a {
 #contato{
   padding:10px;
 }
+.info{
+  margin-left:45px; 
+}
 
 .info ul{
   list-style:none;
