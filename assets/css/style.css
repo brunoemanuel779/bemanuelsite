@@ -431,6 +431,7 @@ a {
 @media only screen and (min-width:425px) and (max-width:768px){
   *{
     color:#000;
+
   }
   .site-hero{
     height:600px;
@@ -504,6 +505,9 @@ a {
   }
   .txt-skill{
    color:#000;
+  }
+  .txt-titulo{
+    color:#000;
   }
 
 }
