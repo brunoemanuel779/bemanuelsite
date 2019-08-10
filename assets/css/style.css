@@ -429,7 +429,7 @@ a {
   }
 }
 @media only screen and (min-width:425px) and (max-width:768px){
-  body{
+  *{
     color:#000;
   }
   .site-hero{
@@ -445,6 +445,10 @@ a {
   .img-perfil{
     width:300px; 
     
+  }
+  .principal{
+    padding-top:200px;
+    margin-bottom:0px;
   }
   .img-sobre{
     display:flex;
