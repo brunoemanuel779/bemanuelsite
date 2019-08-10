@@ -436,7 +436,7 @@ a {
   .site-hero{
     height:400px;
     display:flex;
-    margin-bottom:400px;
+    margin-bottom:200px;
   }
   .site-hero h1{
     font-size:30px; 
