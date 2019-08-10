@@ -364,6 +364,9 @@ a {
     
   }
 @media only screen and (min-width:768px) and (max-width:1024px){
+  8{
+  font-family:verdana; 
+  }
   .site-hero{
     height:600px;
     display:flex;
@@ -431,6 +434,7 @@ a {
 @media only screen and (min-width:425px) and (max-width:768px){
   *{
     color:#000;
+    font-family:verdana; 
 
   }
   .site-hero{
@@ -438,7 +442,7 @@ a {
     display:flex;
     margin-bottom:200px;
   }
-  .site-hero h1{
+  .site-heading{
     font-size:30px; 
   }
   .principal{
