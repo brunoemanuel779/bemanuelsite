@@ -499,13 +499,16 @@ a {
     font-size:18px;
     margin-top:20px; 
     margin-bottom:20px; 
+    text-align:center; 
   }
   .desc-port{
     font-size:16px;
+    text-align:center; 
   }
 
   .info-port{
     font-size:14px; 
+    text-align:center; 
   }
   .img1-port{
     height:330px; 
