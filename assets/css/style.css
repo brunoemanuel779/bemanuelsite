@@ -430,10 +430,13 @@ a {
     width:150px;
     font-size:12px; 
   }
+  strong{
+    color:#FFF; 
+  }
 }
 @media only screen and (min-width:425px) and (max-width:768px){
   *{
-    color:#000;
+    
     font-family:verdana; 
 
   }
@@ -505,9 +508,7 @@ a {
     width:150px;
     font-size:12px; 
   }
-  .lead{
-    color:#00a2ff; 
-  }
+ 
   .txt-skill{
    color:#000;
    font-size:18px; 
@@ -517,9 +518,7 @@ a {
     font-weight:80%; 
   }
 
-  .site-hero .site-subheading{
-    color:#00a2ff; 
-  }
+  
 
 }
 
