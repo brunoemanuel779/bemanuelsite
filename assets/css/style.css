@@ -364,7 +364,7 @@ a {
     
   }
 @media only screen and (min-width:768px) and (max-width:1024px){
-  8{
+  *{
   font-family:verdana; 
   }
   .site-hero{
@@ -378,7 +378,7 @@ a {
     margin-bottom:250px;
   }
   .img-perfil{
-    width:300px; 
+    width:250px; 
     
   }
   .img-sobre{
@@ -394,20 +394,32 @@ a {
     display:flex;
     flex-direction:column;   
   }
+  .txt-sobre{
+    font-size:15px;
+    color:#000;
+    margin-bottom:2px;   
+  }
   .title-port{
-    font-size:25px;
+    font-size:18px;
     margin-top:20px; 
-    margin-bottom:20px; 
+    margin-bottom:20px;
+    text-align:center;  
   }
   .desc-port{
-    font-size:20px;
+    font-size:16px;
+    text-align:center;  
   }
 
   .info-port{
-    font-size:18px; 
+    font-size:14px; 
+    text-align:center;  
   }
+
   .img1-port{
     height:330px; 
+    width:500px;
+    justify-content:center; 
+    align-items:center; 
   }
   .cont-cont{
     display:flex;
@@ -433,16 +445,25 @@ a {
   strong{
     color:#FFF; 
   }
+  .skill-item{
+    display:flex;
+    flex-direction:column;  
+  }
+  .sobre{
+    display:flex;
+    flex-direction:column;  
+  }
+
+
 }
-@media only screen and (min-width:425px) and (max-width:768px){
+@media only screen and (min-width:425px) and (max-width:767px){
   *{
     
     font-family:verdana; 
 
   }
-  .site-hero{
-    height:400px;
-    display:flex;
+  section .site-hero{
+    height:300px;
     width: 100%;
     margin-bottom:200px;
   }
@@ -471,22 +492,24 @@ a {
   }
   .port-principal{
     display:flex;
-    flex-direction:column;   
+    flex-direction:column; 
+    b 
   }
   .title-port{
-    font-size:25px;
+    font-size:18px;
     margin-top:20px; 
     margin-bottom:20px; 
   }
   .desc-port{
-    font-size:20px;
+    font-size:16px;
   }
 
   .info-port{
-    font-size:18px; 
+    font-size:14px; 
   }
   .img1-port{
     height:330px; 
+    margin: auto;
   }
   .cont-cont{
     display:flex;
@@ -518,7 +541,9 @@ a {
     color:#000;
     font-weight:80%; 
   }
-
+    .card-item{
+      border:1px solid #000; 
+    }
   
 
 }
