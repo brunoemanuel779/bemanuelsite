@@ -415,8 +415,7 @@ a {
     text-align:center;  
   }
 
-  .img1-port{
-    height:330px; 
+  .img1-port{ 
     width:500px;
     justify-content:center; 
     align-items:center; 
@@ -520,7 +519,6 @@ a {
     text-align:center; 
   }
   .img1-port{
-    height:330px; 
     margin: auto;
   }
   .cont-cont{
