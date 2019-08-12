@@ -493,7 +493,7 @@ a {
   .port-principal{
     display:flex;
     flex-direction:column; 
-    b 
+    
   }
   .title-port{
     font-size:18px;
@@ -541,9 +541,13 @@ a {
     color:#000;
     font-weight:80%; 
   }
-    .card-item{
+  .card-item{
       border:1px solid #000; 
-    }
+  }
+   .skill-item{
+    display:flex;
+    flex-direction:column;  
+  }
   
 
 }
