@@ -519,7 +519,7 @@ a {
     flex-direction:column;  
   }
   form{
-    margin-right:120px;
+    margin-right:150px;
   }
   .txt-titulo1{
     text-align:center;
@@ -537,7 +537,6 @@ a {
   }
  
   .txt-skill{
-   color:#000;
    font-size:18px; 
   }
   .txt-titulo{
