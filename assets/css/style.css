@@ -363,7 +363,7 @@ a {
 .sec-habilidade{
     
   }
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1000px){
   *{
   font-family:verdana; 
   }
@@ -458,6 +458,12 @@ a {
     margin:0px 0px 0px 0px;
     text-align:center;  
   }
+  .msg-footer{
+    font-size:12px; 
+  }
+  .icon-f{
+    margin: auto;
+  }
 }
 @media (min-width:320px) and (max-width:767px){
   *{
@@ -535,7 +541,7 @@ a {
     font-size:16px; 
   }
   .txt-topo{
-    width:150px;
+    width:80px;
     font-size:12px; 
   }
  
@@ -554,7 +560,17 @@ a {
     margin:0px 0px 0px 0px;
     text-align:center;  
   }
-
+.footer-principal{
+  display:flex;
+  flex-direction:column;    
+}
+  .msg-footer{
+    font-size:12px; 
+    text-align:center; 
+  }
+  .icon-f{
+    margin: auto;
+  }
 
 }
 
