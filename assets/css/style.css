@@ -363,7 +363,7 @@ a {
 .sec-habilidade{
     
   }
-@media only screen and (min-width:768px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1024px){
   *{
   font-family:verdana; 
   }
@@ -456,7 +456,7 @@ a {
 
 
 }
-@media only screen and (min-width:320px) and (max-width:767px){
+@media (min-width:320px) and (max-width:767px){
   *{
     
     font-family:verdana; 
