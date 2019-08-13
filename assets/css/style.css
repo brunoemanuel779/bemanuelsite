@@ -447,6 +447,7 @@ a {
   .skill-item{
     display:flex;
     flex-direction:column;  
+    margin:auto; 
   }
   .sobre{
     display:flex;
