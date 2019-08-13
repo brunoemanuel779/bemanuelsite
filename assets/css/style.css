@@ -358,10 +358,19 @@ a {
    font-size: 14px;
 }
 .icon-footer{
+  width:25px; 
   margin-bottom:12px;
 }
-.sec-habilidade{
-    
+.info-p ul{
+    list-style:none;
+      
+  }
+.info-p{
+  margin-left:85px; 
+  font-size:16px;
+}
+ .info-p a{
+    cursor:pointer;  
   }
 @media (min-width:768px) and (max-width:1000px){
   *{
@@ -446,7 +455,8 @@ a {
   }
   .skill-item{
     flex-direction:column;  
-    margin:auto; 
+    justify-content:center; 
+
   }
   .sobre{
     display:flex;
@@ -463,6 +473,16 @@ a {
   .icon-f{
     margin: auto;
   }
+  .info-p ul{
+    list-style:none; 
+  } 
+   .info-p{
+    margin-left:0px;  
+  }
+   .info-p a{
+    cursor:pointer;  
+  }
+ 
 }
 @media (min-width:320px) and (max-width:767px){
   *{
@@ -526,7 +546,7 @@ a {
     flex-direction:column;  
   }
   form{
-    margin-right:150px;
+    
   }
   .txt-titulo1{
     text-align:center;
@@ -551,8 +571,12 @@ a {
     font-weight:80%; 
   }
   .skill-item{
-    display:flex;
-    flex-direction:column  
+    flex-direction:column;
+    flex-basis:100%;    
+      
+  }
+  .sec-habilidade{
+
   }
   .info-person{
     margin:0px 0px 0px 0px;
@@ -569,6 +593,16 @@ a {
   .icon-f{
     margin: auto;
   }
-
+  
+  .info-p ul{
+    list-style:none; 
+    margin-left:0px; 
+  }
+  .info-p{
+   margin-left:0px; 
+}
+ .info-p a{
+    cursor:pointer;  
+  }
 }
 
