@@ -448,6 +448,7 @@ a {
     right:20px;  
     color:#fff !important; 
     width:80px; 
+    height:40px; 
   }
   footer{
     
@@ -465,7 +466,7 @@ a {
   font-family:verdana; 
   }
   .site-hero{
-    height:600px;
+    height:600px !important;
     display:flex;
   }
   .site-hero h1{
@@ -585,8 +586,8 @@ a {
     font-family:verdana; 
 
   }
-  section .site-hero{
-    height:300px;
+ .site-hero{
+    height:300px !important;
     width: 100%;
     margin-bottom:200px;
   }
