@@ -422,10 +422,7 @@ a {
    
   
   }
-  #contato{
-    background-color:#f8f9fa; 
-    padding:100px; 
-  }
+  
   .skill{
      
     padding-bottom:20px;
@@ -570,7 +567,7 @@ a {
   } 
    .info-p{
     margin-left:0px; 
-    width:100%;  
+    margin:auto;
   }
   .info-person{
     width:100%; 
@@ -679,8 +676,7 @@ a {
   }
   .info-person{
     text-align:left;  
-    border:1px solid #000;
-    width:300px; 
+    margin: auto;  
   }
   .info-person a{
     font-size: 12px;
