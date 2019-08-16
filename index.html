@@ -6,9 +6,10 @@
 	<title>Bruno Emanuel &mdash; Desenvolvedor Web</title>
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">s
 
 </head>
-<body>
+<body class="fadeIn">
 	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light teste" id="pb-navbar">
       <div class="container">
        <a class="navbar-brand" href="index.html">Bemanuel</a>
@@ -27,7 +28,7 @@
     </nav>
     
     <!-- Section apresentacao -->
-    <section class="site-hero align-items-center justify-content-center " style="background-image: url(assets/img/banner.jpg);" id="home" data-stellar-background-ratio="0.5">
+    <section  class="site-hero align-items-center justify-content-center " style="background-image: url(assets/img/banner.jpg);" id="home" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row intro-text align-items-center justify-content-center">
           <div class="col-md-10 text-center principal">
@@ -40,7 +41,7 @@
       </div>
     </section>
     <!-- Section sobre mim -->
-    <section id="sobre" class="sobre">
+    <section id="sobre" class="sobre" data-aos="fade-up">
     	<div class="container">
     		<div class="card sobre">
     			<div class="row">
@@ -62,7 +63,7 @@
     	</div>
     </section>
     <!--Minhas Habilidades-->
-     <section id="sobre" class="skill">
+     <section id="sobre" class="skill" data-aos="fade-up">
       <div class="container">
         <div class="card sobre">
           <div class="row">
@@ -112,7 +113,7 @@
      </section>
   
     <!-- Section de Portifolio -->
-    <section id="portifolio">
+    <section id="portifolio" data-aos="fade-up">
      <div class="container">
      	<div class="card-title txt-titulo1">
     		<h5 class="txt-titulo1"><img src="assets/img/portifolio.png" alt="" class="icon-img"><span class="title-1">Portfólio</strong></span></h5>
@@ -153,7 +154,7 @@
 	 </div>
     </section>
     <!-- Section contato -->
-    <section id="contato">
+    <section id="contato" data-aos="fade-up">
    	<div class="container">
     	<div class="row cont-cont">
     		<div class="col-sm">
@@ -204,12 +205,11 @@
     		</div>
     	</div>
     </div>
-    <a href="#" class="btn btn-primary buto txt-topo">Home</a>
     </section>
     <!-- footer cabecalho -->
 
-    <footer class="cabecalho">
-      <div class="container cabecalho">
+    <footer  data-aos="fade-up">
+      <div class="container">
         <div class="card-group footer-principal">
           <div class="card">     
             <span class="msg-footer">Copyright © 2019 Todos direitos reservados <strong>Bruno Emanuel</strong></span>
@@ -231,5 +231,9 @@
 	<script src="assets/js/jquery.js"></script>
   <script src="assets/js/script.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
 </body>
 </html>
