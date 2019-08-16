@@ -504,6 +504,7 @@ a {
     margin-top:20px; 
     margin-bottom:20px;
     text-align:center;  
+    font-weight:80px; 
   }
   .desc-port{
     font-size:16px;
@@ -568,7 +569,11 @@ a {
     list-style:none; 
   } 
    .info-p{
-    margin-left:0px;  
+    margin-left:0px; 
+    width:100%;  
+  }
+  .info-person{
+    width:100%; 
   }
    .info-p a{
     cursor:pointer;  
@@ -621,6 +626,7 @@ a {
     margin-top:20px; 
     margin-bottom:20px; 
     text-align:center; 
+    font-weight:80px; 
   }
   .desc-port{
     font-size:16px;
@@ -672,8 +678,15 @@ a {
 
   }
   .info-person{
-    margin:0px 0px 0px 0px;
     text-align:center;  
+    border:1px solid #000;
+
+  }
+  .info-person a{
+    font-size: 12px;
+  }
+  .info-person span{
+    font-size: 14px;
   }
 .footer-principal{
   display:flex;
