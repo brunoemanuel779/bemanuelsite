@@ -678,14 +678,13 @@ a {
 
   }
   .info-person{
-    text-align:center;  
-    border:1px solid #000;
-
+    text-align:left;  
+    width:300px; 
   }
   .info-person a{
     font-size: 12px;
   }
-  .info-person span{
+  .txt-info{
     font-size: 14px;
   }
 .footer-principal{
@@ -705,7 +704,8 @@ a {
     margin-left:0px; 
   }
   .info-p{
-   margin-left:0px; 
+   margin-left:0px;
+   text-align:center;    
 }
  .info-p a{
     cursor:pointer;  
