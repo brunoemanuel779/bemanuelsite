@@ -711,9 +711,6 @@ a {
  .info-p a{
     cursor:pointer;  
   }
-  .cont-cont{
-    margin: auto;
-  }
 }
 @media (min-width:900px) and (max-width:1000px){
  
