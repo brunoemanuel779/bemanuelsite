@@ -458,7 +458,11 @@ a {
   pre{
     display:none; 
   }
-  
+  .title-12{
+    width:150px;
+    margin:auto;
+    
+  }
 @media (min-width:768px) and (max-width:899px){
   *{
   font-family:verdana; 
