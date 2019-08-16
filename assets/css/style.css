@@ -25,10 +25,10 @@ a {
 .site-navbar {
   border: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+  box-shadow:none;
   border-radius: 0px;
   margin-bottom: 0px;
-  background: none;
+  background:none;
   position: absolute;
   top: 20px;
   width: 100%;
@@ -44,6 +44,8 @@ a {
     .site-navbar .navbar-brand:hover {
       color:#00a2ff ;
       border: 2px solid #00a2ff;
+      transition-duration: 1s;
+      transition-timing-function: linear;
 
     }
   .site-navbar.bg-light {
@@ -66,6 +68,11 @@ a {
     position: relative;
     text-transform: uppercase;
     letter-spacing: .2em; }
+    .site-navbar .navbar-nav > li > a:hover{
+      color:#00a2ff !important; 
+      transition-duration: 1s;
+      transition-timing-function: linear;
+    }
     @media (max-width: 991.98px) {
       .site-navbar .navbar-nav > li > a {
         color: rgba(0, 0, 0, 0.7) !important; } }
@@ -366,12 +373,57 @@ a {
       
   }
 .info-p{
-  margin-left:85px; 
+  margin-left:100px; 
   font-size:16px;
 }
  .info-p a{
     cursor:pointer;  
   }
+  
+  .icon-skill{
+    display:flex; 
+  }
+  .skill p{
+    text-align:center; 
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+  .sec-habilidade{
+    font-size:18px; 
+    margin:auto;
+    padding:5px 5px 5px 5px; 
+     border:1px solid #999; 
+    border-radius: 10px; 
+    margin-left:10px; 
+  }
+  .sec-habilidade:hover{
+   
+  
+  }
+  #contato{
+    background-color:#f8f9fa; 
+    padding:100px; 
+  }
+  .skill{
+     
+    padding-bottom:20px;
+  }
+  .teste{
+   
+  }
+  .efeito-title{
+    border-bottom:1px solid  #00a2ff;
+    padding-bottom:5px; 
+  }
+  .habilidade-sobre{
+    display:flex;
+    align-items:center;
+    justify-content:center;   
+  }
+  .skill-txt{
+   margin-bottom:5px; 
+  }
+  
 @media (min-width:768px) and (max-width:899px){
   *{
   font-family:verdana; 
@@ -482,6 +534,8 @@ a {
    .info-p a{
     cursor:pointer;  
   }
+
+
  
 }
 @media (min-width:320px) and (max-width:767px){
