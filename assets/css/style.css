@@ -445,6 +445,16 @@ a {
   .skill-txt{
    margin-bottom:5px; 
   }
+  .voltar{
+    position:fixed;
+    bottom:10px;
+    right:10px;  
+    color:#fff !important; 
+    width:80px; 
+  }
+  footer{
+    
+  }
   
 @media (min-width:768px) and (max-width:899px){
   *{
