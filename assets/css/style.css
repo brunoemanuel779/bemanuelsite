@@ -577,7 +577,9 @@ a {
     cursor:pointer;  
   }
 
-
+.efeito-title{
+    font-weight:80%; 
+  }
  
 }
 @media (min-width:320px) and (max-width:767px){
@@ -641,6 +643,10 @@ a {
   .cont-cont{
     display:flex;
     flex-direction:column;  
+  }
+
+  .efeito-title{
+    font-weight:80%; 
   }
   form{
     
