@@ -581,7 +581,9 @@ a {
 .efeito-title{
     font-weight:80%; 
   }
- 
+ pre{
+    display:none; 
+  }
 }
 @media (min-width:320px) and (max-width:767px){
   *{
@@ -714,8 +716,13 @@ a {
  .info-p a{
     cursor:pointer;  
   }
+  pre{
+    display:none; 
+  }
 }
 @media (min-width:900px) and (max-width:1000px){
- 
+ pre{
+    display:none; 
+  }
  
 }
